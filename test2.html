@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="https://github.com/classaxe/fe_dev_test/blob/main/images">
+    <meta charset="utf-8"/>
+    <title>BOX CO PLC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+        body * {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        #hero {
+            background-image: url('https://github.com/classaxe/fe_dev_test/blob/main/images/hero-image_circles.png?raw=true');
+            background-position: center;
+            height: 709px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #hero h1, #hero h2 {
+            display: block;
+            color: #fff;
+            text-align: center;
+        }
+        #hero h1 {
+            font-weight: 300;
+            font-size: 32pt;
+            margin: 0;
+        }
+        #hero h2 {
+            font-weight: 300;
+        }
+        #hero img {
+            width: 263px;
+            height: 193px;
+        }
+        #block_2 {
+            margin: 5em 0;
+            background-image: url('https://github.com/classaxe/fe_dev_test/blob/main/images/circle-group.png?raw=true');
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 552px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #block_2 div {
+            height: 20em;
+            width: 20em;
+            padding: 4em;
+            border-radius: 50%;
+            background-color: #77BB4D;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #block_2 h2 {
+            font-size: 32pt;
+            margin: 0;
+            color: #fff;
+        }
+        #block_2 p {
+            color: #fff;
+            font-size: 14pt;
+            margin: 0.5em;
+            line-height: 1.5em;
+            text-align: center;
+        }
+
+        #block_3 p {
+            color: #295696;
+            font-size: 18pt;
+            margin: 1em;
+            text-align: center;
+        }
+        #block_3 .row {
+            align-items: normal;
+            max-width: 700px;
+            padding: 0 2em;
+            margin: auto;
+        }
+        #block_3 .column {
+            text-align: center;
+        }
+
+        #block_3 h2 {
+            margin: 0.25em;
+            font-weight: 300;
+            color: #295696;
+            font-size: 18pt;
+            text-align: center;
+        }
+        #block_3 div p {
+            margin: 0.25em 2em;
+            color: #295696;
+            font-size: 11pt;
+            line-height: 2em;
+        }
+        button {
+            border: none;
+        }
+        button {
+            border-radius: 1.25em;
+            padding: 0.6em;
+            width: 10em;
+        }
+        button.btn_1 {
+            background-color: #fff;
+            color: #295696;
+        }
+        button.btn_2 {
+            width: 8em;
+            background-color: #fff;
+            color: #295696;
+        }
+        button.btn_3 {
+            background-color: #295696;
+            color: #ffffff;
+        }
+
+        #block_4 h2 {
+            color: #295696;
+            font-weight: 300;
+            font-size: 22pt;
+            text-align: center;
+        }
+        #block_4 .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+        #block_4 h3 {
+            color: #295696;
+            font-weight: 300;
+            font-size: 16pt;
+        }
+        #block_4 p {
+            color: #295696;
+            font-size: 12pt;
+        }
+        #block_4 .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #block_4 .feature_1 {
+            background-image: url('https://github.com/classaxe/fe_dev_test/blob/main/images/feature-1.png?raw=true');
+        }
+        #block_4 .feature_2 {
+            background-image: url('https://github.com/classaxe/fe_dev_test/blob/main/images/feature-2.png?raw=true');
+        }
+        #block_4 .feature_3 {
+            background-image: url('https://github.com/classaxe/fe_dev_test/blob/main/images/feature-3.png?raw=true');
+        }
+        @media (min-width: 680px) {
+            #block_3 .row {
+                display: flex;
+                justify-content: center;
+                align-items: normal;
+                max-width: 700px;
+                padding: 0 2em;
+                margin: auto;
+            }
+            #block_3 .column {
+                margin: 0 1em;
+                flex: 50%;
+            }
+            #block_4 .row {
+                display: flex;
+                justify-content: center;
+                align-items: normal;
+                max-width: 700px;
+                padding: 0 2em;
+                margin: auto;
+            }
+            #block_4 .column {
+                margin: 0 1em;
+                flex: 50%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="hero">
+    <h1>BOX CO PLC</h1>
+    <img src="https://github.com/classaxe/fe_dev_test/blob/main/images/box-co-logo.png?raw=true" alt="Box Co PLC Logo">
+    <h2>Sed ut perspiciatis unde omnis<br>iste natus sit voluptatem</h2>
+    <button class="btn_1">Get a Quote</button>
+</div>
+
+<div id="block_2">
+    <div>
+        <h2>Lorem Ipsum.</h2>
+        <p>Donec imperdiet quis dolor tempus faucibus. In rhoncus elit quis tortor pretium faucibus. In consectetur ante sed nisl tempor, tincidunt</p>
+        <button class="btn_2">Our Services</button>
+    </div>
+</div>
+
+<div id="block_3">
+    <p>Duis nec diam auctor, pretium ante eget. Nullam eget eleifend sapien.</p>
+    <div class="row">
+        <div class="column">
+            <img src="https://github.com/classaxe/fe_dev_test/blob/main/images/square-conveyer.png?raw=true" alt="Mauris lectus quam">
+            <h2>Mauris lectus quam</h2>
+            <p>Maecenas ante augue, ultrices et elit ut, consequat facilisis quam. Vestibulum sagittis vestibulum arcu, in condimentum lectus rhoncus eu. Vestibulum dignissim.</p>
+        </div>
+        <div class="column">
+            <img src="https://github.com/classaxe/fe_dev_test/blob/main/images/square-checklist.png?raw=true" alt="Duis nec diam auctor">
+            <h2>Mauris lectus quam</h2>
+            <p>Nam luctus consequat nulla. Morbi luctus, libero a scelerisque lobortis, nunc quam imperdiet neque, vel venenatis nisl enim vitae augue.</p>
+        </div>
+    </div>
+    <p><button class="btn_3">Learn More</button></p>
+</div>
+
+<div id="block_4">
+    <h2>Nunc blandit est ligula, tincidunt eget.</h2>
+    <div class="row">
+        <div class="column icon feature_1"><img src="https://github.com/classaxe/fe_dev_test/blob/main/images/icon-cart.svg?raw=true"></div>
+        <div class="column">
+            <h3>Pellentesque nec dui</h3>
+            <p>Quisque congue mauris suscipit mi accumsan, vitae cursus libero pulvinar.  Integer vel quam vitae mi sagittis tempor.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column icon feature_2"><img src="https://github.com/classaxe/fe_dev_test/blob/main/images/icon-house.svg?raw=true"></div>
+        <div class="column">
+            <h3>Nunc et nunc</h3>
+            <p>Cras at blandit tellus, vel gravida lectus. Maecenas ante augue, ultrices et elit ut, consequat facilisis quam. Vestibulum.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column icon feature_3"><img src="https://github.com/classaxe/fe_dev_test/blob/main/images/icon-work.svg?raw=true"></div>
+        <div class="column">
+            <h3>Proin eget neque egestas</h3>
+            <p>In rhoncus elit quis tortor pretium faucibus. In consectetur ante sed nisl tempor, tincidunt venenatis ipsum tincidunt. Mauris eget risus.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
