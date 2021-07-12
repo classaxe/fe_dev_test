@@ -161,12 +161,13 @@
         #block_4 .feature_3 {
             background-image: url('https://github.com/classaxe/fe_dev_test/blob/main/images/feature-3.png?raw=true');
         }
+
         @media (min-width: 680px) {
             #block_3 .row {
                 display: flex;
                 justify-content: center;
                 align-items: normal;
-                max-width: 700px;
+                max-width: 680px;
                 padding: 0 2em;
                 margin: auto;
             }
@@ -178,7 +179,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: normal;
-                max-width: 700px;
+                max-width: 680px;
                 padding: 0 2em;
                 margin: 0 auto 0.5em auto;
             }
@@ -186,8 +187,28 @@
                 margin: 0 1em;
                 flex: 50%;
             }
-
         }
+
+
+        @media (max-width: 679px) {
+            #block_4 .row {
+                display: block;
+                max-width: 680px;
+                padding: 0 2em;
+                margin: 0 auto 0.5em auto;
+            }
+            #block_4 .column.icon {
+                height: 6em;
+                text-align: center;
+            }
+            #block_4 h3 {
+                margin: 0.25em 0;
+            }
+            #block_4 p {
+                margin: 0.25em 0;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -250,4 +271,3 @@
 </div>
 </body>
 </html>
-
